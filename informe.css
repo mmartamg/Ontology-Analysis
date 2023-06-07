@@ -1,0 +1,53 @@
+@page{
+	size: A4 portrait;
+	margin-left: 1.5cm;
+	margin-right:2cm;
+	margin-top: 2cm;
+	@bottom-right{
+		content:counter(page);
+		border-bottom: 3pt solid #314256;
+	}
+	@top-left{
+		border-top: 3pt solid #F5BD05;
+		content: string(nombre);
+		color:#314256;
+		font-size: 9pt;
+		margin: 0;
+		padding: 0;
+	}
+	@bottom-left{
+		content: "Ontology analysis";
+		color: gray;
+		border-bottom: 3pt solid #F5BD05;
+	}
+
+	font-family: 'Myriad Pro';
+}
+
+body{
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 11pt;
+	line-height: 1;
+}
+h1{
+	string-set: nombre content();
+}
+hr{
+	border: 0;
+	height: 2pt;
+	background: #314256;
+}
+hr:first-child{
+	border: 0;
+	height: 5pt;
+	background: #314256;
+	position: relative;
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
