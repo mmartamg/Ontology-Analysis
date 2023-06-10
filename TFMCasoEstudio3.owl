@@ -1,0 +1,1390 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://martam.ontologia.TFM/"
+     xml:base="http://martam.ontologia.TFM/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://martam.ontologia.TFM/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://martam.ontologia.TFM/canBeCreatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/canBeCreatedBy">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/canCreate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/canCreate -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/canCreate"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/damages -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/damages">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/isDamagedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/degrades -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/degrades">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/isRelatedTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/enabledBy -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/enabledBy">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/enables"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/enables -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/enables"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/gives -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/gives">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/isGivenBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/has -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/has">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/partOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/isDamagedBy -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/isDamagedBy"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/isGivenBy -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/isGivenBy"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/isRelatedTo -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/isRelatedTo"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/isResponsibleOf -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/isResponsibleOf"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/partOf -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/partOf"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/performedIn -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/performedIn"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/resultOf -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/resultOf">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/resultsIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/resultsIn -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/resultsIn"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/triggeredBy -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/triggeredBy">
+        <owl:inverseOf rdf:resource="http://martam.ontologia.TFM/triggers"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://martam.ontologia.TFM/triggers -->
+
+    <owl:ObjectProperty rdf:about="http://martam.ontologia.TFM/triggers"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_Maintainer -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Asset_Maintainer"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_Owner -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Asset_Owner"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_Users -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Asset_Users"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_Valuation -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Asset_Valuation"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Battlespace_domain -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Battlespace_domain"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_Maintainer -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Capability_Maintainer"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_Owner -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Capability_Owner"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_Valuation -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Capability_Valuation"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Card_Creation -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Card_Creation"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Card_Last_Update -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Card_Last_Update"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Category -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Category"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Causes -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Causes"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Communication -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Communication"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Conditions -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Conditions"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Description -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Description"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Desired_Results -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Desired_Results"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Execution_Costs -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Execution_Costs"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Execution_Requirements -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Execution_Requirements"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/ID -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/ID"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Impact_Dimensions -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Impact_Dimensions"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Location -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Location"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Mission_Impact -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Mission_Impact"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Mission_phase -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Mission_phase"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Nation -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Nation"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Objectives -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Objectives"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Performance_Indicators -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Performance_Indicators"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Playbook -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Playbook"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Remediations -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Remediations"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Reporter -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Reporter"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Responsible_Commander -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Responsible_Commander"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Resulting_Mission_execution_degradations -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Resulting_Mission_execution_degradations"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Risk_Responsible -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Risk_Responsible"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Risk_Score -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Risk_Score"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Risk_Source -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Risk_Source"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Risk_posture -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Risk_posture"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Role -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Role"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Score -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Score"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Services_associated -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Services_associated"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Status -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Status"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Threat_Indicators -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Threat_Indicators"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Uncertainty -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Uncertainty"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Unit_Valuation -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Unit_Valuation"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Unwanted_Results -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/Unwanted_Results"/>
+    
+
+
+    <!-- http://martam.ontologia.TFM/War_levels -->
+
+    <owl:DatatypeProperty rdf:about="http://martam.ontologia.TFM/War_levels"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://martam.ontologia.TFM/Action -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Action">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/enabledBy"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Capability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/partOf"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Task"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/performedIn"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Node"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/resultsIn"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Effect"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/triggeredBy"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Unit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Category"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Execution_Costs"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Execution_Requirements"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Playbook"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Responsible_Commander"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Score"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Status"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Asset">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/gives"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Capability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/isDamagedBy"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/CIS_Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Asset_Maintainer"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Asset_Owner"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Asset_Users"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Asset_Valuation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Category"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Location"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Services_associated"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/CIS_Risk -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/CIS_Risk">
+        <rdfs:subClassOf rdf:resource="http://martam.ontologia.TFM/Risk"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/canCreate"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/MI_Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/damages"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Asset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Causes"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Impact_Dimensions"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Risk_posture"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Capability">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/enables"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/isGivenBy"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Asset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Capability_Maintainer"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Capability_Owner"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Capability_Valuation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Category"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Score"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Effect -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Effect">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/resultOf"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Category"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Mission_Impact"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Reporter"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/War_levels"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/MI_Risk -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/MI_Risk">
+        <rdfs:subClassOf rdf:resource="http://martam.ontologia.TFM/Risk"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/canBeCreatedBy"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/CIS_Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/degrades"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Task"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Conditions"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Remediations"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Resulting_Mission_execution_degradations"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Node -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Node">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Location"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Risk -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Risk">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Category"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Reporter"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Risk_Responsible"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Risk_Score"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Risk_Source"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Threat_Indicators"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Uncertainty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Task -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Task">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/has"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/isRelatedTo"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/MI_Risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Battlespace_domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Category"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Desired_Results"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Mission_phase"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Objectives"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Responsible_Commander"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Score"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Status"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Unwanted_Results"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Unit -->
+
+    <owl:Class rdf:about="http://martam.ontologia.TFM/Unit">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/isResponsibleOf"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Task"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/triggers"/>
+                <owl:someValuesFrom rdf:resource="http://martam.ontologia.TFM/Action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Creation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Card_Last_Update"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Communication"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/ID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Location"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Nation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Responsible_Commander"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Role"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://martam.ontologia.TFM/Unit_Valuation"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://martam.ontologia.TFM/Action_11 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Action_11">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Action"/>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Action_12 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Action_12">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Action"/>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Action_21 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Action_21">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Action"/>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Action_31 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Action_31">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Action"/>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_1 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Asset_1">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Asset"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_1"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_2"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_1"/>
+        <Asset_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</Asset_Valuation>
+        <Services_associated>cuatro</Services_associated>
+        <Services_associated>dos</Services_associated>
+        <Services_associated>tres</Services_associated>
+        <Services_associated>uno</Services_associated>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_2 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Asset_2">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Asset"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_1"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_2"/>
+        <Asset_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</Asset_Valuation>
+        <Services_associated>dos</Services_associated>
+        <Services_associated>uno</Services_associated>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_3 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Asset_3">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Asset"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_1"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_2"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_1"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_2"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_3"/>
+        <Asset_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</Asset_Valuation>
+        <Services_associated>cinco</Services_associated>
+        <Services_associated>cuatro</Services_associated>
+        <Services_associated>dos</Services_associated>
+        <Services_associated>tres</Services_associated>
+        <Services_associated>uno</Services_associated>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_4 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Asset_4">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Asset"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_3"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_4"/>
+        <Asset_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</Asset_Valuation>
+        <Services_associated>uno</Services_associated>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_5 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Asset_5">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Asset"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_4"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_1"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_2"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_3"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_4"/>
+        <Asset_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</Asset_Valuation>
+        <Services_associated>dos</Services_associated>
+        <Services_associated>uno</Services_associated>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Asset_6 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Asset_6">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Asset"/>
+        <gives rdf:resource="http://martam.ontologia.TFM/Capability_5"/>
+        <isDamagedBy rdf:resource="http://martam.ontologia.TFM/CIS_Risk_5"/>
+        <Asset_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85</Asset_Valuation>
+        <Services_associated>dos</Services_associated>
+        <Services_associated>uno</Services_associated>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/CIS_Risk_1 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/CIS_Risk_1">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/CIS_Risk"/>
+        <Impact_Dimensions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Impact_Dimensions>
+        <Risk_Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Risk_Score>
+        <Risk_posture>delegated</Risk_posture>
+        <Uncertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</Uncertainty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/CIS_Risk_2 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/CIS_Risk_2">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/CIS_Risk"/>
+        <Impact_Dimensions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Impact_Dimensions>
+        <Risk_Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</Risk_Score>
+        <Risk_posture>assumed</Risk_posture>
+        <Uncertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</Uncertainty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/CIS_Risk_3 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/CIS_Risk_3">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/CIS_Risk"/>
+        <Impact_Dimensions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Impact_Dimensions>
+        <Risk_Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</Risk_Score>
+        <Risk_posture>assumed</Risk_posture>
+        <Uncertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Uncertainty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/CIS_Risk_4 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/CIS_Risk_4">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/CIS_Risk"/>
+        <Impact_Dimensions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Impact_Dimensions>
+        <Risk_Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Risk_Score>
+        <Risk_posture>mitigated</Risk_posture>
+        <Uncertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</Uncertainty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/CIS_Risk_5 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/CIS_Risk_5">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/CIS_Risk"/>
+        <Impact_Dimensions rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</Impact_Dimensions>
+        <Risk_Score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</Risk_Score>
+        <Risk_posture>assumed</Risk_posture>
+        <Uncertainty rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95</Uncertainty>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_1 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Capability_1">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Capability"/>
+        <enables rdf:resource="http://martam.ontologia.TFM/Action_11"/>
+        <Capability_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</Capability_Valuation>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_2 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Capability_2">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Capability"/>
+        <enables rdf:resource="http://martam.ontologia.TFM/Action_12"/>
+        <Capability_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</Capability_Valuation>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_3 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Capability_3">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Capability"/>
+        <enables rdf:resource="http://martam.ontologia.TFM/Action_12"/>
+        <Capability_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</Capability_Valuation>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_4 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Capability_4">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Capability"/>
+        <enables rdf:resource="http://martam.ontologia.TFM/Action_21"/>
+        <Capability_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</Capability_Valuation>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Capability_5 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Capability_5">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Capability"/>
+        <enables rdf:resource="http://martam.ontologia.TFM/Action_31"/>
+        <Capability_Valuation rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77</Capability_Valuation>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Task_1 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Task_1">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Task"/>
+        <has rdf:resource="http://martam.ontologia.TFM/Action_11"/>
+        <has rdf:resource="http://martam.ontologia.TFM/Action_12"/>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Task_2 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Task_2">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Task"/>
+        <has rdf:resource="http://martam.ontologia.TFM/Action_21"/>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://martam.ontologia.TFM/Task_3 -->
+
+    <owl:NamedIndividual rdf:about="http://martam.ontologia.TFM/Task_3">
+        <rdf:type rdf:resource="http://martam.ontologia.TFM/Task"/>
+        <has rdf:resource="http://martam.ontologia.TFM/Action_31"/>
+        <Score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Score>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
