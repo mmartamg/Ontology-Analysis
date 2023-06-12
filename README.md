@@ -14,7 +14,7 @@ Las librerías usadas:
 -	md2pdf
 -	datetime
 ---
-### Guía de Uso
+## Guía de Uso
 Para poder analizar la ontología con el programa se debe definir la localización de la misma dentro de la función `main()` de **ONTOLOGÍATFMUSO.py**:
 
 `onto = get_ontology("ONTOLOGY LOCATION").load()`
