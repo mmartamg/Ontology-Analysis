@@ -1,5 +1,15 @@
 # Ontology-Analysis
 
+## Archivos
+- TFMOntologiaCompleta.owl: ontología completa sin individuos.
+- TFMCasoPrincipal.owl: ontología completa con el caso de estudio principal definido.
+- TFMCasoEstudio2.owl: ontología completa con el caso de estudio 2 definido.
+- TFMCasoEstudio3.owl: ontología completa con el caso de estudio 3 definido.
+- ONTOLOGIATFMGESTION.py: programa de análisis de ontologías – script de gestión.
+- ONTOLOGIATFMUSO.py: programa de análisis de ontologías – script de uso.
+- informe.css: archivo CSS para definir el estilo del informe autogenerado.
+---
+## Requisitos
 Los requisitos necesarios para el uso del sistema son:
  - Protégé (versión 5.6.1)
  - Python 3
