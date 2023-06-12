@@ -415,10 +415,10 @@ def analyze_ontology(onto):
         generate_report(task)
 
 def main():
-    onto = get_ontology("ONTOLOGY").load()
+    onto = get_ontology("ONTOLOGY LOCATION").load()
     with onto:
         analyze_ontology(onto)
-        onto.save(file = "ONTOLOGY", format = "rdfxml")
+        onto.save(file = "ONTOLOGY LOCATION", format = "rdfxml")
 
 if __name__ == "__main__":
     main()
