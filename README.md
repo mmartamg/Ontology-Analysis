@@ -29,11 +29,11 @@ Para poder analizar la ontología con el programa se debe definir la localizaci�
 
 `onto = get_ontology("ONTOLOGY LOCATION").load()`
 
-También se debe definir la localización en la que se guardará la ontología actualizada (línea [421](https://github.com/mmartamg/Ontology-Analysis/blob/fe94a547d7a96fab486c768d985ed18d88ff819c/ONTOLOGIATFMUSO.py#L421), para esto puede actualizarse el archivo o crearse uno nuevo:
+También se debe definir la localización en la que se guardará la ontología actualizada (línea [421](https://github.com/mmartamg/Ontology-Analysis/blob/fe94a547d7a96fab486c768d985ed18d88ff819c/ONTOLOGIATFMUSO.py#L421)), para esto puede actualizarse el archivo o crearse uno nuevo:
 
 `onto.save(file = "NEW ONTOLOGY LOCATION", format = "rdfxml")` 
 
-Después de esto, se debe definir el IRI de la ontología con la que se trabaja dentro de la función `create_query(func)` de **ONTOLOGÍATFMGESTION.py**:
+Después de esto, se debe definir el IRI de la ontología con la que se trabaja dentro de la función `create_query(func)` de **ONTOLOGÍATFMGESTION.py** (línea [18](https://github.com/mmartamg/Ontology-Analysis/blob/235378adb0a3b3c8dee0b0e52854785472c37dc1/ONTOLOGIATFMGESTION.py#L18)):
 
 `PREFIX onto: <ONTOLOGY PREFIX>`
 
