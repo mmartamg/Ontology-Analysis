@@ -1,5 +1,5 @@
 # Ontology-Analysis
----
+
 Los requisitos necesarios para el uso del sistema son:
  - Protégé (versión 5.6.1)
  - Python 3
@@ -13,7 +13,7 @@ Las librerías usadas:
 - MdUtils
 -	md2pdf
 -	datetime
-
+---
 ### Guía de Uso
 Para poder analizar la ontología con el programa se debe definir la localización de la misma dentro de la función `main()` de **ONTOLOGÍATFMUSO.py**:
 
