@@ -19,7 +19,7 @@ Para poder analizar la ontología con el programa se debe definir la localizaci�
 
 `onto = get_ontology("ONTOLOGY LOCATION").load()`
 
-Así como definir la localización en la que se guardará la ontología actualizada, para esto puede actualizarse el archivo o crearse uno nuevo:
+También se debe definir la localización en la que se guardará la ontología actualizada, para esto puede actualizarse el archivo o crearse uno nuevo:
 
 `onto.save(file = "NEW ONTOLOGY LOCATION", format = "rdfxml")`
 
